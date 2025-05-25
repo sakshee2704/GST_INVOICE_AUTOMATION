@@ -7,10 +7,10 @@ from email import encoders
 # Function to send an email with an attachment
 def send_email_with_attachment(filename):
     # Sender's email credentials
-    email_user = 'patilsakshee41@gmail.com'
-    email_password = 'bkfx ssoj rvdy aiid'  # App-specific password
+    email_user = 'sendeer_mail'
+    email_password = 'app_pass'  # App-specific password
     # Receiver's email address
-    email_send = 'patilsakshee41@gmail.com'
+    email_send = 'receiver_mail'
     subject = 'GST Invoice for policy'
 
     # Create the email using MIMEMultipart for adding attachments
